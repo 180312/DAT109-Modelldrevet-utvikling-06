@@ -1,0 +1,4 @@
+Denne koden er ganske forskjellig i og med at vi brukte andre rammeverk og teknologier en java.
+Det det denne koden også har er flere hjelpemetoder som det ikke er sikker på at vi hadde brukt.
+Dette er enkelt, men kan føre til til unødvendige funksjoner som ikke brukes i programmet og kan derfor skape forvirring.
+Vi føler oss mest komfortable med kode vi selv skriver.
