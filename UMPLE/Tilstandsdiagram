@@ -1,0 +1,36 @@
+class HVLexpo {
+  state {
+    CreateUser { 
+      Spectator -> RoleIsSpectator;
+      Jury -> RoleIsJury;
+      ExpoTeam -> RoleIsExpoTeam;
+      
+    }
+    RoleIsJury {
+      UpdateAnEvent -> UpdateEvent;
+      ViewingScoreboard -> Scoreboard;
+    }
+    RoleIsExpoTeam {
+      CreatingAnExpo -> CreatingExpo;
+    }
+    RoleIsSpectator {
+      Vote -> Voting;
+    }
+    Voting {
+      Finished -> Deleting;
+    }
+    CreatingExpo {
+      Finished -> Deleting;
+    }
+    UpdateEvent {
+      DoingMore -> RoleIsJury;
+      Finished -> Deleting;
+    }
+    Scoreboard {
+      DoingMore -> RoleIsJury;
+      Finished -> Deleting;
+    }
+    Deleting {
+    }
+  }
+}
