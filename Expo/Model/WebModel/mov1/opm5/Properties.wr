@@ -1,0 +1,10 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov1#opm5" name="Voting" gr:x="250" gr:y="135">
+  <OperationUnits>
+    <InputCollectorUnit id="mov1#opm5#icu5" gr:x="15" gr:y="175">
+      <InputCollectorParameter id="mov1#opm5#icu5#icp1" name="Already voted? "/>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="575" gr:y="185" id="mov1#opm5#okcu2" name="Vote saved"/>
+    <KOCollectorUnit gr:x="575" gr:y="330" id="mov1#opm5#kocu2" name="Vote rejected"/>
+    <OKCollectorUnit gr:x="575" gr:y="40" id="mov1#opm5#okcu3" name="Vote updated"/>
+  </OperationUnits>
+</OperationModule>

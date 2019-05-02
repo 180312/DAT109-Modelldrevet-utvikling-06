@@ -1,0 +1,9 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area3" name="Expoteam" defaultPage="sv2#area3#lgu4" landmark="true" gr:x="100" gr:y="110">
+  <OperationUnits>
+    <LoginUnit id="sv2#area3#lgu4" name="Login" gr:x="30" gr:y="75">
+      <KOLink id="sv2#area3#lgu4#kln3" name="KOFlow2" to="sv2#area3#page6" automaticCoupling="true"/>
+      <OKLink id="sv2#area3#lgu4#oln8" name="OKFlow8" to="sv2#area3#page5#dau4" automaticCoupling="true"/>
+    </LoginUnit>
+    <LogoutUnit gr:x="250" gr:y="340" id="sv2#area3#lou5" name="Logout" siteView="sv2"/>
+  </OperationUnits>
+</Area>

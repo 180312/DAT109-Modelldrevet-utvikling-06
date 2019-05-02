@@ -1,0 +1,27 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv3#area4#page7" name="Vote" gr:x="240" gr:y="0" protected="true">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="sv3#area4#page7#inu3" name="Projects to Vote on" entity="ent3" linkOrder="sv3#area4#page7#inu3#ln4">
+      <Link id="sv3#area4#page7#inu3#ln4" name="Flow4" to="sv3#area4#lou6" automaticCoupling="true" type="normal" validate="true"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#area4#page7#inu3">
+          <layout:Link link="sv3#area4#page7#inu3#ln4"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
