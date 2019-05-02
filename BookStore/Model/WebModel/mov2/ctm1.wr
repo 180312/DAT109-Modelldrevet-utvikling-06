@@ -1,0 +1,176 @@
+<ContentModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="400" gr:y="225" id="mov2#ctm1" name="Shopping Cart">
+  <ContentUnits>
+    <ModuleInstanceUnit gr:x="445" gr:y="625" id="mov2#ctm1#miu1" action="true" name="Empty the cart" moduleId="mov2#opm2">
+      <Link id="mov2#ctm1#miu1#ln4" name="Flow4" to="mov2#ctm1#page12" automaticCoupling="true" type="normal" validate="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="85" gr:y="360" id="mov2#ctm1#miu2" action="true" name="Update the quantitis" linkOrder="mov2#ctm1#miu2#ln7">
+      <Link id="mov2#ctm1#miu2#ln7" name="Flow7" to="mov2#ctm1#page11" automaticCoupling="true" type="normal" validate="true"/>
+    </ModuleInstanceUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="mov2#ctm1#page11">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12"/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#ctm1#page11#inu4">
+          <layout:Link link="mov2#ctm1#page11#inu4#ln5"/>
+          <layout:Link link="mov2#ctm1#page11#inu4#ln6"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="mov2#ctm1#page12">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12"/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#ctm1#page12#dau3"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#ctm1#miu2">
+          <layout:Link link="mov2#ctm1#miu2#ln7"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Page gr:x="90" gr:y="600" id="mov2#ctm1#page11" name="Shopping Cart">
+    <ContentUnits>
+      <IndexUnit gr:x="0" gr:y="0" id="mov2#ctm1#page11#inu4" name="Product List" entity="ent7" linkOrder="mov2#ctm1#page11#inu4#ln5 mov2#ctm1#page11#inu4#ln6">
+        <Link id="mov2#ctm1#page11#inu4#ln5" name="Flow5" to="mov2#ctm1#miu1" automaticCoupling="true" type="normal" validate="true"/>
+        <Link id="mov2#ctm1#page11#inu4#ln6" name="Flow6" to="mov2#ctm1#miu2" automaticCoupling="true" type="normal" validate="true"/>
+      </IndexUnit>
+    </ContentUnits>
+  </Page>
+  <Page gr:x="785" gr:y="600" id="mov2#ctm1#page12" name="Confirmation">
+    <ContentUnits>
+      <DataUnit gr:x="0" gr:y="0" id="mov2#ctm1#page12#dau3" name="Confirmation Message" entity="ent4">
+        <Selector id="mov2#ctm1#page12#dau3#su4" defaultPolicy="fill" booleanOperator="and">
+          <KeyCondition id="mov2#ctm1#page12#dau3#su4#kcond4" name="KeyCondition4" predicate="in" implied="false"/>
+        </Selector>
+      </DataUnit>
+    </ContentUnits>
+  </Page>
+</ContentModule>
